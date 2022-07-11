@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { ReactComponent as ArrowRight } from '../../assets/arrow_right.svg';
+import patternBg from '../../assets/pattern_bg.png';
 
 export const StyledHeader = styled.header`
   position: relative;
@@ -7,15 +8,10 @@ export const StyledHeader = styled.header`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 15rem;
-  background-image: linear-gradient(
-    to right,
-    #3f37c9,
-    #5f56d3,
-    #7b73dc,
-    #9791e3,
-    #b2afe9
-  );
+  height: 250px;
+  background-image: url(${patternBg});
+  background-size: cover;
+  background-repeat: no-repeat;
   gap: 0.5rem;
   font: 1.2rem 'Roboto';
   z-index: 2;

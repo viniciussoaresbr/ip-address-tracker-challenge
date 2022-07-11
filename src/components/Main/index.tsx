@@ -3,7 +3,7 @@ import { MapContainer, Marker, TileLayer } from 'react-leaflet';
 import { GeolocationContext } from '../../services/GeolocationContext';
 import { StyledMain } from './styles';
 import Lottie from 'react-lottie';
-import animationData from '../../assets/spinner_animation.json';
+import animationData from '../../assets/ellipsis_animation.json';
 import { Map } from 'leaflet';
 
 const Main = () => {

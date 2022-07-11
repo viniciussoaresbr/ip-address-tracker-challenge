@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const InfoCardContainer = styled.section`
   position: absolute;
-  top: 10rem;
+  top: 11.3rem;
   display: flex;
   align-items: center;
   width: 70%;
