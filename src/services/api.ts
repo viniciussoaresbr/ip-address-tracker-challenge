@@ -1,9 +1,9 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://geo.ipify.org/api/v2/',
+  baseURL: process.env.REACT_APP_API_BASE_URL,
 });
 
-const apiKey = 'at_CewxrEEw9T8mNjSdkXo22AEYdFnZd';
+const apiKey = process.env.REACT_APP_API_KEY;
 
 export { api, apiKey };
